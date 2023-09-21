@@ -66,8 +66,8 @@ const auth = () => {
   return (
     <div className="relative h-full w-full bg-[url('../public/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
       <div className="bg-black w-full h-full lg:bg-opacity-50">
-        <nav className="px-12 py-5">
-          <h1 className="h-12 text-red-500" >Netflix</h1>
+        <nav className="px-12 py-5 sticky top-0">
+          <h1 className="h-12 text-red-500 font-bold text-3xl" >Netflix</h1>
         </nav>
         <div className="flex justify-center">
           <div className="bg-black bg-opacity-70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
